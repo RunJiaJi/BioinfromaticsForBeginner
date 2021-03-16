@@ -37,7 +37,9 @@
       h3, p{
         padding-top: 20px;
       }
-
+      h3{
+        font-weight: bold;
+      }
       img{
         padding-bottom: 20px;
       }
@@ -67,9 +69,8 @@
       <a class="p-2 link-secondary" href="index.html" style="font-weight: bold;font-size: 20px;">生物信息学概述</a> 
       <a class="p-2 link-secondary" href="index.html#profile" style="font-weight: bold; font-size: 20px;">本站简介</a>
       <a class="p-2 link-secondary" href="gene.html" style="font-weight: bold;font-size: 20px;">基因组学分析</a>
-      <a class="p-2 link-secondary" href="trans.html" style="font-weight: bold;font-size: 20px;">转录组学分析</a>
-      <a class="p-2 link-secondary" href="protein.html" style="font-weight: bold;font-size: 20px;">蛋白质组学分析</a>
-      <a class="p-2 link-secondary" href="metabolic.html" style="font-weight: bold;font-size: 20px;">代谢组学分析</a>
+      <a class="p-2 link-secondary" href="transcriptomics.html" style="font-weight: bold;font-size: 20px;">转录组学分析</a>
+      <a class="p-2 link-secondary" href="proteomics.html" style="font-weight: bold;font-size: 20px;">蛋白质组学分析</a>
       <a class="p-2 link-secondary" href="R.html" style="font-weight: bold;font-size: 20px;">R语言</a>
       <a class="p-2 link-secondary" href="Python.html" style="font-weight: bold;font-size: 20px;">Python</a>
       <a class="p-2 link-secondary" href="links.html" style="font-weight: bold;font-size: 20px;">常用链接</a>
@@ -81,7 +82,7 @@
   <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
     <div class="col-md-8 px-0">
       <h1 class="display-4 fst-italic" style="font-style: normal;">Transcriptomics</h1>
-      <p class="lead my-3" style="line-height: 1.7;"><br/>转录组学 (transcriptomics) 对处于特定时间、特定发育阶段或某些特定的生理条件下的细胞、组织、器官或整个生物体的完整转录本的集合进行的全面分析。<br /><br />—— Dinesh Yadav 等 <a href="https://doi.org/10.1016/C2015-0-01634-3" style="text-decoration: none; color: white;">《组学技术与生物工程》</a></p>
+      <p class="lead my-3" style="line-height: 1.7;"><br/>转录组学 (transcriptomics) 是对处于特定时间、特定发育阶段或某些特定的生理条件下的细胞、组织、器官或整个生物体的完整转录本的集合进行的全面分析。<br /><br />—— Dinesh Yadav 等 <a href="https://doi.org/10.1016/C2015-0-01634-3" style="text-decoration: none; color: white;">《组学技术与生物工程》</a></p>
     </div>
       <!-- <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p> -->
   </div>
@@ -89,105 +90,59 @@
   <div>
     <div class="row justify-content-center">
       <div class="blog-post">
-        <h2 id="profile" class="blog-post-title" style="font-weight: bold; font-size: 30px;" >基因组 <span class="display-4 fst-italic" style="font-style: normal; font-size: 30px;">Genome</span>
-        <img src="image/gene.png" alt="" style="width: 50px;">
+        <h2 id="profile" class="blog-post-title" style="font-weight: bold; font-size: 30px;" >转录组 <span class="display-4 fst-italic" style="font-style: normal; font-size: 30px;">Transcriptome</span>
+        <img src="image/rna.png" alt="" style="width: 60px;">
         </h2>
         <hr>
 
-        <div  class="row">
-          <div class="col-md-4 col-xs-12" style="overflow: hidden;">
-            <img src="image/genomics2.jpg" alt="">
+        <div class="row">
+          <div class="col-md-9 col-xs-12" style="overflow:auto;">
+            <img src="image/transcription.jpg" alt="transcription" style="height: 450px;">
           </div>
-          <div class="col-md-8 col-xs-12">
+          <div class="col-md-3 col-xs-12">
               <p style="line-height: 1.7;text-indent: 50px;text-align: justify;">
-              1952年，<a href="https://en.wikipedia.org/wiki/Rosalind_Franklin">Rosalind Franklin</a>获得了B型DNA X射线晶体衍射照片，确认了DNA的螺旋结构；1953年，<a href="https://en.wikipedia.org/wiki/James_Watson">James D. Watson </a>和<a href="https://en.wikipedia.org/wiki/Francis_Crick">Francis Crick</a>发表了DNA结构；1955年，<a href="https://en.wikipedia.org/wiki/Frederick_Sanger">Fred Sanger</a>发表了胰岛素氨基酸序列。自此，<strong>核酸测序</strong>成为早期分子生物学家的主要目标。基因组是生物体的完整DNA集，包括其所有基因；基因组学的目标是对生物体的所有基因、及其相互关系和对生物体的影响进行定性和量化。
+              转录组(Transcriptome) 是单个或一组细胞中所有RNA转录本的集合，包括具有编码功能的和无编码功能的，有时也可以使用该术语指代所有RNA或仅指信使RNA(mRNA)。遗传信息在精密的调控下通过mRNA从DNA传递到蛋白质，因此mRNA被认为是DNA 与蛋白质之间生物信息传递的一个“桥梁”，而所有表达基因的身份以及其转录水平，综合起来被称作转录组。转录组是术语“转录本”和“基因组”的组合。 它与生物转录过程中转录产物的生产过程有关。转录组研究能够从整体水平研究基因功能以及基因结构，揭示特定生物学过程以及疾病发生过程中的分子机理。
               </p>
-              <div class="row" style="">
-                <img class="col col-sm-6 col-md-4" style="width: 33%" src="image/people/Franklin.jpg" alt="Franklin">
-                <img class="col col-sm-6 col-md-4" style="width: 33%" src="image/people/Watson.jpg" alt="Franklin" >
-                <img class="col col-sm-6 col-md-4" style="width: 33%" src="image/people/Crick.jpg" alt="Franklin" >
-              </div>
-          </div>           
+          </div>
         </div>            
       </div>
        
         <hr>
-        <h3 class="mb-0">测序技术的发展</h3>
+        <h3 class="mb-0">转录组测序（RNA-Seq）</h3>
         <br>
-        <p style="text-indent: 35px; text-align: justify; line-height: 1.6;">序列的测定是基因组学研究的最基础也最重要的工作。1977年Sanger提出了“链终止法”，这种测序方法被称为<strong>第一代测序技术</strong>，该技术直到现在依然被广泛使用，但是一次只能获得一条长度在700～1000个碱基的序列，无法满足现代科学发展对生物基因序列获取的迫切需求。
-        </p>
-
+        <br>
+        <br>
         <div class="row">
-          <img class="col-xs-12 col-md-7" src="image/sanger_sequencing.jpg" alt="Sanger测序" >
+          <img class="col-xs-12 col-md-7" src="image/rnasequencing.png" alt="转录组测序" >
           <div class="col-xs-12 col-md-5">
-            <p style=" text-align: justify; line-height: 1.5;"><span style="font-style: italic; font-weight: bold;">
-              <br />
-              <br />
-            双脱氧链终止法：</span>采用DNA复制原理，测序反应体系中包括目标DNA片段、脱氧三磷酸核苷酸（dNTP）、双脱氧三磷酸核苷酸（ddNTP）、测序引物及DNA聚合酶等。其技术核心是：ddNTP缺少3'-OH基团，不具有与另一个dNTP连接形成磷酸二酯键的能力，这些ddNTP可用来中止DNA链的延伸；同时，这些ddNTP上连接有放射性同位素或荧光标记基团，因此可以被自动化的仪器或凝胶成像系统所检测到。
+            <br>
+            <p style="text-indent: 35px; text-align: justify; line-height: 1.6;"><span style="font-weight: bold;font-style: italic;">转录组测序（RNA-Seq）</span>是指利用第二代高通量测序技术进行cDNA测序，全面快速地获取某一物种特定器官或组织在某一状态下的几乎所有转录本。该技术能够在单核苷酸水平对任意物种的整体转录活动进行检测，在分析转录本的结构和表达水平的同时，还能发现未知转录本和稀有转录本，精确地识别可变剪切位点以及cSNP(编码序列单核苷酸多态性)，提供更为全面的转录组信息。转录组分析的主要目标是：对所有的转录产物进行分类；确定基因的转录结构，如其起始位点，5′和3′末端，剪接模式和其他转录后修饰；并量化各转录本在发育过程中和不同条件下(如生理/病理)表达水平的变化
+            </p>
+            <p style="text-indent: 35px; text-align: justify; line-height: 1.6;"><span style="font-style: italic; font-weight: bold;">RNA-Seq的基本步骤:</span>
+            提取样本总RNA后,根据所测RNA种类进行分离纯化。再进而片段化为所用测序平台所需的长度(或反转录后片段化)，
+            基因在生物体内被转录，经过剪切后产生成熟的mRNA（红色）。提取mRNA后，经碎片化/片段化后反转录成稳定的ds-cDNA片段（蓝色）。反转录后连接测序接头。接着利用PCR扩增达到一定丰度上机测序，直到获得足够的序列。 使用高通量测序技术获得ds-cDNA序列。所得序列通过与参考基因组比对或从头组装(de novo assembly)形成全基因组范围的转录谱。这些数据可用于注释表达基因的位置及其相对表达水平等。
             </p><br>
           </div>
         </div>
         
-
-        <div class="col-12">
-          <p style="text-indent: 35px; text-align: justify; line-height: 1.6;"><strong> 
-          高通量测序 (High-Throughput Sequencing, HTS)</strong>是对传统Sanger测序的革命性变革，其解决了一代测序一次只能测定一条序列的限制，一次运行即可同时得到几十万到几百万条核酸分子的序列，因此也被称为<strong>新一代测序 (Next Generation Sequencing, NGS)</strong>或<strong>第二代测序</strong>。第二代测序技术虽然测序的通量大大增加，但是其获得单条序列长度很短，想要得到准确的基因序列信息依赖于较高的测序覆盖度和准确的序列拼接技术，因此最终得到的结果中会存在一定的错误信息。
-          </p>  
-        </div>
-        <p style="text-indent: 35px; text-align: justify; line-height: 1.6;"><strong>第三代测序技术</strong>也称为<strong>单分子测序技术</strong>，该技术在保证测序通量的基础上，对单条长序列进行从头测序，能够直接得到长度在数万个碱基的核酸序列信息。
-        </p>
-        <div class="col-12">
-          <img style="width: 100%" src="image/gsh.jpg" alt="测序技术发展历史">
-        </div>
-        
-
         <hr>
-        <h3 class="mb-0">全基因组测序与组装</h3>
-        <br>
-        <p style="text-indent: 35px; text-align: justify; line-height: 1.6;">全基因组测序主要包括<strong>样本获取</strong>、<strong>细胞裂解（DNA提取）</strong>、<strong>全基因组扩增与核酸纯化（测序文库制备）</strong>及<strong>序列测定</strong>四个部分。测序样本是的获取是基因组学研究的第一步，也是关系到基因组质量的最重要的一步。可以根据需求选取某一群体作为样本（<span style="font-style: italic; font-weight: bold;">宏基因组学, Metagenomics</span>）或者以特定细胞为样本（
-          <span style="font-style: italic; font-weight: bold;">单细胞基因组学, Single-cell genomics
-          </span>）。宏基因组学样本可依据细胞丰度选择是否进行全基因组扩增，如果细胞丰度大可跳过全基因组扩增直接将细胞裂解后提取的DNA作为测序文库；而单细胞由于核酸量微少需要进行全基因组扩增。目前市场上已经有成熟的试剂盒可用于全基因组测序文库的制备。然而，不论是宏基因组还是单细胞基因组分析，都应尽量<strong>避免污染</strong>，以免对基因组质量造成影响。
-        </p>
-        <div class="col-12 col-md-8">
-          <img style="width: 100%" src="image/sequencing.jpg" alt="全基因组测序流程图">
-        </div>
-        
-
+        <h3 class="mb-0">RNA-Seq数据处理</h3>
         <br>
         <br>
-        <p style="text-indent: 35px; text-align: justify; line-height: 1.6;">
-          尽管目前第三代测序技术如PacBio或Oxford Nanopore能够获得超过10kb的序列，但是测序结果往往存在较高的错误率，约15%<a href="https://www.pacb.com/" style="text-decoration: none;">（详见）</a>，因此，目前第一、第二代测序技术仍然是主流的测序手段。测序完成后，需要对得到的短序列核酸片段（<strong>reads</strong>)进行组装从而获得基因组草图。基因组的从头组装（<strong>de novo assembly</strong>）过程是对reads进行组装产生长片段Contigs，然后确定Contig的方向和顺序，组装Contigs产生更长的片段Scaffolds，最后再组装连接Scaffolds得到完整的染色体序列。最常用的从头组装算法是Overlap-Layout-Consensus（OLC）算法，依据序列片段的重叠区（overlap）进行拼接，逐渐得到基因组草图。
-        </p>
-        <br>
-        <div class="col-12 col-md-8">
-          <img src="image/assembly.png" alt="全基因组从头组装" style="width: 100%;">
-        </div>
-        
-        <br />
-        <br />
-        <br />
-        <hr />
-        <h3 class="mb-0">基因组学研究方向</h3>
         <br>
         <div class="row">
-          <div class="col-4">
-            <img src="image/geApp.png" alt="基因组研究应用" style="width: 100%; ">
-          </div>
-            
-          <div class="col-8">
-            <p style="float: right; line-height: 1.7;text-indent: 50px;text-align: justify;">
-          
-              目前基因组学的研究方向包括功能基因组学、比较基因组学等，研究成果可用于疾病治疗、药物开发、生物工程及基因组编辑与修饰等领域。
-            </p>
-          </div>
+          <img class="col-md-7 col-xs-12" src="image/rnaseqdataanalysis.png" alt="转录组测序数据处理">
+          <p class="col-md-5 col-xs-12" style="text-indent: 35px; text-align: justify; line-height: 1.6;"><strong>RNA-seq数据的生物信息学分析包括预分析，核心分析和进阶分析</strong>
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4728800/" style="text-decoration: none;">（详见）</a>。<strong>预分析(a)</strong> 包括实验设计，测序设计和质量控制步骤。质量控制包括对测序得到的原始数据的质量控制（序列质量、GC含量、接头序列、k-mers过多以及重复reads的分析等，以消除测序错误和PCR中产生的人为污染。） 、序列比对及mapping（可以map到已存在的基因组或者转录组上）、定量分析（GC含量、基因长度）、再现性分析（评估平行样本RNA数据集的再现性，排除实验批次误差）。<strong>核心分析(b)</strong>包括转录组分析，差异基因表达和功能分析。<strong>高级分析(c)</strong>包括可视化，其他RNA-seq技术和数据集成。
+          </p>          
         </div>
+       
         
-      </div>
     </div>
   </div>
 
-<button id="top" onclick="topFunction()" style="position: fixed; bottom: 50px; right: 50px; width: 50px; height: 50px; border-style: solid; border-width:2px; border-color: black; border-radius: 10px; text-align: center; line-height: 50px;">top
-</button>
+  <button id="top" onclick="topFunction()" style="position: fixed; bottom: 50px; right: 50px; width: 50px; height: 50px; border-style: solid; border-width:2px; border-color: black; border-radius: 10px; text-align: center; line-height: 50px;">top
+  </button>
 
 </main><!-- /.container -->
 
