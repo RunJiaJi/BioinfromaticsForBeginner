@@ -30,12 +30,24 @@
           font-size: 3.5rem;
         }
       }
+      #top:hover{
+        background-color: #212529;
+        color: white;
+      }
+      .card-body{
+        height: 250px;
+      }
+      h3, p{
+        padding-top: 20px;
+      }
+      h3{
+        font-weight: bold;
+      }
+      img{
+        padding-bottom: 20px;
+      }
     </style>
 
-    
-    <!-- Custom styles for this template -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet"> -->
-    <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
   </head>
   <body>
@@ -47,7 +59,7 @@
         <a class="link-secondary" href="#">Subscribe</a>
       </div> -->
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="index.html" style="font-weight: bold; white-space: nowrap; line-height: 80px;">Bioinfromatics for Beginner</a>
+        <a class="blog-header-logo text-dark" href="index.html" style="font-weight: bold;line-height: 80px;">BioBeginner</a>
       </div>
      <!--  <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
@@ -60,24 +72,126 @@
       <a class="p-2 link-secondary" href="index.html" style="font-weight: bold;font-size: 20px;">生物信息学概述</a> 
       <a class="p-2 link-secondary" href="index.html#profile" style="font-weight: bold; font-size: 20px;">本站简介</a>
       <a class="p-2 link-secondary" href="gene.html" style="font-weight: bold;font-size: 20px;">基因组学分析</a>
-      <a class="p-2 link-secondary" href="trans.html" style="font-weight: bold;font-size: 20px;">转录组学分析</a>
-      <a class="p-2 link-secondary" href="protein.html" style="font-weight: bold;font-size: 20px;">蛋白质组学分析</a>
-      <a class="p-2 link-secondary" href="metabolic.html" style="font-weight: bold;font-size: 20px;">代谢组学分析</a>
-      <a class="p-2 link-secondary" href="R.html" style="font-weight: bold;font-size: 20px;">R语言</a>
-      <a class="p-2 link-secondary" href="Python.html" style="font-weight: bold;font-size: 20px;">Python</a>
+      <a class="p-2 link-secondary" href="transcriptomics.html" style="font-weight: bold;font-size: 20px;">转录组学分析</a>
+      <a class="p-2 link-secondary" href="proteomics.html" style="font-weight: bold;font-size: 20px;">蛋白质组学分析</a>
       <a class="p-2 link-secondary" href="links.html" style="font-weight: bold;font-size: 20px;">常用链接</a>
     </nav>
   </div>
 </div>
 
+<main class="container">
+  <br>
+  <br>
+  <div class="row justify-content-around">
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="https://www.w3school.com.cn/python/index.asp" target="_blank" style="text-decoration: none; color: black;">Python教程</a></div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://www.w3school.com.cn/python/index.asp" target="_blank"><svg t="1616225803964" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1972" width="200" height="200"><path d="M420.693333 85.333333C353.28 85.333333 298.666667 139.946667 298.666667 207.36v71.68h183.04c16.64 0 30.293333 24.32 30.293333 40.96H207.36C139.946667 320 85.333333 374.613333 85.333333 442.026667v161.322666c0 67.413333 54.613333 122.026667 122.026667 122.026667h50.346667v-114.346667c0-67.413333 54.186667-122.026667 121.6-122.026666h224c67.413333 0 122.026667-54.229333 122.026666-121.642667V207.36C725.333333 139.946667 670.72 85.333333 603.306667 85.333333z m-30.72 68.693334c17.066667 0 30.72 5.12 30.72 30.293333s-13.653333 38.016-30.72 38.016c-16.64 0-30.293333-12.8-30.293333-37.973333s13.653333-30.336 30.293333-30.336z" fill="#3C78AA" p-id="1973"></path><path d="M766.250667 298.666667v114.346666a121.6 121.6 0 0 1-121.6 121.984H420.693333A121.6 121.6 0 0 0 298.666667 656.597333v160a122.026667 122.026667 0 0 0 122.026666 122.026667h182.613334A122.026667 122.026667 0 0 0 725.333333 816.64v-71.68h-183.082666c-16.64 0-30.250667-24.32-30.250667-40.96h304.64A122.026667 122.026667 0 0 0 938.666667 581.973333v-161.28a122.026667 122.026667 0 0 0-122.026667-122.026666zM354.986667 491.221333l-0.170667 0.170667c0.512-0.085333 1.066667-0.042667 1.621333-0.170667z m279.04 310.442667c16.64 0 30.293333 12.8 30.293333 37.973333a30.293333 30.293333 0 0 1-30.293333 30.293334c-17.066667 0-30.72-5.12-30.72-30.293334s13.653333-37.973333 30.72-37.973333z" fill="#FDD835" p-id="1974"></path>
+        </svg>
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="https://github.com/RunJiaJi/biobeginner/releases/tag/v1.0" target="_blank" style="text-decoration: none; color: black;">R语言实战</a></div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://github.com/RunJiaJi/biobeginner/releases/tag/v1.0" target="_blank">
+          <svg t="1616226792994" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2988" width="200" height="200"><path d="M510.122667 172.8c-242.944 0-441.770667 132.522667-441.770667 296.405333 0 144.896 157.269333 265.045333 363.989333 290.688v94.08h150.613334V760.32c37.546667-3.968 72.490667-11.050667 105.6-21.205333l61.013333 114.858666h170.496l-102.485333-172.714666c82.602667-53.888 134.272-129.450667 134.272-212.053334 0-163.882667-198.784-296.405333-441.770667-296.405333m67.584 115.712c185.557333 0 322.474667 61.866667 322.474667 202.794667 0 75.52-40.618667 128.554667-106.88 161.237333a46.122667 46.122667 0 0 1-9.728-6.656c-15.914667-7.04-42.410667-15.018667-42.410667-15.018667s131.626667-9.685333 131.626667-140.885333-137.813333-133.418667-137.813334-133.418667h-302.592v316.288c-112.64-32.682667-190.378667-102.058667-190.378666-181.546666 0-112.213333 150.186667-202.794667 335.701333-202.794667m6.656 175.786667h91.434667s41.941333-2.133333 41.941333 41.557333c0 42.837333-41.941333 42.837333-41.941333 42.837333h-91.434667v-84.352m-1.322667 194.816h40.618667c7.936 0 11.946667 2.218667 18.986667 8.832 5.76 4.394667 11.946667 12.8 17.237333 20.309334-24.32 3.114667-49.92 4.437333-76.842667 4.437333z" fill="#13227a" p-id="2989"></path></svg>
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="https://www.icourse163.org/course/SDU-1001907001" target="_blank" style="text-decoration: none; color: black;">生信课程</a></div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://www.icourse163.org/course/SDU-1001907001" target="_blank">
+          <svg t="1616227144550" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5938" width="200" height="200" ><path d="M512.34112 255.999893c110.719954 0 183.893257 53.887978 238.207901 116.309285l10.581329 12.501328c3.498665 4.309332 6.99733 8.53333 10.325329 12.799995 18.517326 24.277323 34.517319 48.89598 49.919979 71.42397 10.239996 15.189327 19.839992 29.567988 29.397321 43.007982l9.685329 13.653328c3.157332 4.479998 6.314664 9.002663 10.239996 13.226661 39.59465 49.962646 80.5973 81.066633 140.074608 84.949298a494.079794 494.079794 0 0 0 0-223.658573c-59.519975 3.882665-100.479958 34.943985-140.842608 84.949298-7.679997-10.495996-15.231994-21.759991-23.67999-33.962653a1054.676894 1054.676894 0 0 0-56.319976-78.719967c42.922649-49.877313 95.99996-92.799961 167.765263-109.098621C872.66097 106.239956 704.98104 0 512.34112 0c-191.99992 0-360.106517 106.239956-447.573147 263.381224 71.722637 16.383993 124.714615 59.221309 167.722597 109.055954 3.669332 3.839998 7.167997 7.679997 10.623995 12.159995l10.111996 12.799995c20.437325 26.239989 38.997317 53.119978 55.679977 78.719967l23.67999 35.242652 10.239996 14.037327c3.157332 4.437331 7.039997 8.959996 10.197329 13.439995 44.842648 61.397308 90.239962 103.679957 159.999933 103.679957 70.399971 0 115.242619-42.239982 160.639933-103.679957l15.999994 23.67999c19.242659 28.159988 39.765317 58.879975 62.079974 87.679963-54.314644 62.762641-127.999947 116.479951-238.719901 116.479952-110.677287 0-183.637257-54.399977-238.037234-116.479952l-10.239996-12.799994-10.239995-12.799995c-18.559992-24.31999-34.559986-49.237313-49.91998-71.67997a1692.159295 1692.159295 0 0 0-29.397321-42.922649l-9.642662-14.079994c-3.157332-4.437331-6.357331-8.959996-10.239996-13.397328C113.663953 435.199819 72.661303 403.839832 13.183995 399.999833c-8.319997 36.223985-12.799995 73.599969-12.799995 111.999954s4.351998 75.775968 12.373328 111.829286c59.647975-3.882665 100.479958-34.943985 140.586608-84.949298 7.338664 10.495996 15.103994 21.759991 23.210657 33.962653 15.999993 24.149323 34.389319 51.541312 56.02131 78.719967-43.050649 49.877313-96.12796 92.799961-167.67993 109.098621A511.146454 511.146454 0 0 0 512.34112 1023.999573c192.63992 0 360.149183-106.239956 447.573147-263.381223-71.67997-16.383993-124.671948-59.221309-167.67993-109.055955-3.669332-3.839998-7.25333-7.679997-10.666663-12.159995l-10.069329-12.799994a1106.687539 1106.687539 0 0 1-55.679977-78.719968L692.181045 511.999787a453.759811 453.759811 0 0 0-9.813329-14.079994 780.586341 780.586341 0 0 0-9.898663-13.866661c-44.842648-61.439974-89.599963-103.722623-159.999933-103.722624s-115.157285 42.239982-159.999934 103.722624l-15.999993-23.893324A1143.039524 1143.039524 0 0 0 274.346552 372.309178C328.661196 309.887871 400.341167 255.999893 512.34112 255.999893" fill="#d81e06" p-id="5939"></path></svg>
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" style="text-decoration: none; color: black;">PubMed</a>
+      </div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">
+          <svg t="1616227972492" class="icon" viewBox="0 0 1072 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9674" width="200" height="200"><path d="M93.9 123.6h76.7c24.9 0 45-20.2 45-45V1.9L93.9 123.6zM1017.2 556.2l34.1-34.1c28.1-28.1 28.1-73.7 0-101.8-28.1-28.1-73.7-28.1-101.8 0l-34.1 34.1 101.8 101.8zM880.5 489.2L625.3 744.4l-44.9 146.8 146.7-44.9 255.2-255.2z" fill="#0061b2" p-id="9675"></path><path d="M700.4 953.6L509.5 962 568 721.1 930.1 359V69.6c0-37.3-30.6-67.8-68-67.8H237.9v75.9c0 37.6-30.5 68-68 68h-76v808.7c0 37.3 30.6 67.8 68 67.8h700.2c37.4 0 68-30.5 68-67.8V743.9L700.4 953.6zM259.8 188.3h504.6c25 0 45.4 20.2 45.4 45.2s-20.3 45.2-45.4 45.2H259.7c-25 0-45.3-20.2-45.3-45.2s20.3-45.2 45.4-45.2z m0 220.6h296.9c25 0 45.4 20.2 45.4 45.2s-20.3 45.2-45.4 45.2h-297c-25-0.1-45.3-20.3-45.3-45.2 0-25 20.3-45.2 45.4-45.2z m160.1 310.8H259.7c-25 0-45.4-20.2-45.4-45.2s20.3-45.2 45.4-45.2h160.2c25.1 0 45.4 20.2 45.4 45.2s-20.3 45.2-45.4 45.2z" fill="#0061b2" p-id="9676"></path></svg>
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header">
+        <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="text-decoration: none; color: black;">GenBank
+        </a>
+      </div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://www.ncbi.nlm.nih.gov/" target="_blank">
+        <svg t="1616229060004" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13668" width="200" height="200"><path d="M669.536 608H416a32 32 0 0 1 0-64h284.832c2.112-10.24 3.168-20.864 3.168-32 0-62.816-35.36-111.456-106.496-155.84a32 32 0 0 1 33.92-54.304C719.424 356.8 768 423.584 768 512c0 104.288-59.616 171.968-179.776 234.56 21.952 9.344 42.816 18.176 51.072 21.856C726.912 807.68 768 840.992 768 896a32 32 0 0 1-64 0c0-18.976-26.176-40.192-90.88-69.152-14.56-6.528-73.664-31.264-102.72-43.744-27.808 11.904-78.944 33.504-93.152 39.904C348.416 853.856 320 876.448 320 896a32 32 0 0 1-64 0c0-56 42.816-90.048 135.04-131.392 18.24-8.192 91.36-38.976 108.032-46.336 82.112-36.288 138.016-70.72 170.464-110.272z m-346.368-128c-2.112 10.24-3.168 20.864-3.168 32 0 62.816 35.36 111.456 106.496 155.84a32 32 0 0 1-33.92 54.304C304.576 667.2 256 600.416 256 512c0-103.808 59.04-171.328 178.112-233.728-19.712-8.416-38.08-16.32-46.176-19.968C298.08 217.664 256 183.68 256 128a32 32 0 1 1 64 0c0 19.552 27.424 41.76 94.304 72 14.88 6.72 69.12 29.696 97.248 41.792 27.232-11.712 80.64-34.24 95.2-40.8C675.584 170.144 704 147.552 704 128a32 32 0 0 1 64 0c0 56-42.816 90.048-135.04 131.392-16.992 7.648-81.568 34.88-103.84 44.512a32.192 32.192 0 0 1-8.704 3.84c-79.68 35.552-134.112 69.44-165.952 108.256H608a32 32 0 0 1 0 64h-284.832z" fill="#515151" p-id="13669"></path></svg>
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="http://www.ensembl.org" target="_blank" style="text-decoration: none; color: black;">Ensembl</a></div>
+      <div class="card-body" style="text-align: center;">
+        <a href="http://www.ensembl.org" target="_blank">
+          <img src="image/ensembl.jpg" alt="">
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="https://www.jcvi.org" target="_blank" style="text-decoration: none; color: black;">JCVI</a></div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://www.jcvi.org" target="_blank" style="text-decoration: none;">
+          <p style="font-weight: bold; font-size: 100px; color: black;">JCVI</p>
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="https://www.uniprot.org" target="_blank" style="text-decoration: none; color: black;">UniProt</a></div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://www.uniprot.org" target="_blank" style="text-decoration: none;">
+          <img alt="" src="https://www.uniprot.org/images/logos/Logo_medium.png" title="UniProt home" style="background: skyblue; width: 200px; margin-top: 50px;">
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="https://www.rcsb.org" target="_blank" style="text-decoration: none; color: black;">RCSB PDB</a></div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://www.rcsb.org" target="_blank" style="text-decoration: none;">
+          <img id="rcsblogo" src="https://cdn.rcsb.org/rcsb-pdb/v2/common/images/rcsb_logo.png" data-src="https://cdn.rcsb.org/rcsb-pdb/v2/common/images/rcsb_logo.png" alt="RCSB PDB" style="width: 200px; margin-top: 50px;">
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header">
+        <a href="https://www.genome.jp/kegg" target="_blank" style="text-decoration: none; color: black;">KEGG</a>
+      </div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://www.genome.jp/kegg" target="_blank" style="text-decoration: none;">
+          <img src="https://www.genome.jp/Fig/kegg128.gif" alt="KEGG icon" border="0" style="width: 200px;margin-top: 30px;">
+        </a>        
+      </div>
+    </div>
+    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"><a href="https://www.omim.org" target="_blank" style="text-decoration: none; color: black;">OMIM</a></div>
+      <div class="card-body" style="text-align: center;">
+        <a href="https://www.omim.org" target="_blank" style="text-decoration: none;">
+         <img src="https://www.omim.org/static/omim/images/OMIM_50_logo_badge.jpg" alt="50 Years of OMIM - Human Genetics Knowledge for the World" style="width: 200px; margin-top: 30px;">
+        </a>        
+      </div>
+    </div>
+  </div>
+</main><!-- /.container -->
 
+<footer class="blog-footer" style="background-color: #eee;">
 
-<footer class="blog-footer">
+  <br />
+  <p style="color: gray;"> <button id="top" onclick="topFunction()" style="border-style: none;">BioBeginner 生信,从此开始</button> All rights reserved.</p>
 
-    <a href="#">Back to top</a>
-  </p>
 </footer>
 
+<script>
+   function topFunction() {
+    scrollTo(0,0);
+  }
+</script>
 
     
   </body>
